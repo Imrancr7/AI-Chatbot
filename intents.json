@@ -1,0 +1,101 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Alice","I'm Alice","I'm Alice your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["BMS College of Engineering has both under graduate and post graduate courses i.e Bachelor of Engineering and M.tech courses."]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be B.E course", "how long will it take to complete B.E  course","Say about B.E"],
+  "responses": ["Our college offers 4 year long B.E course."]
+  },
+
+  {"tag": "Mtech info",
+  "patterns": ["how long will be Mtech course", "how long will it take to complete M.tech  course","Courses about Mtech","Info about M.tech","Say about M.tech"],
+  "responses": ["Sorry but I am incharge of only B.E courses college enquires."]
+  },
+
+  {"tag": "B.E List",
+  "patterns": ["List of courses in B.E", "What all courses under B.E","Courses about be","Info about b.e courses","Say about engineering"],
+  "responses": ["The list of courses offered under B.E are:\n1. CIVIL ENGINEERING\n2. MECHANICAL ENGINEERING\n3. ELECTRICAL & ELECTRONICS ENGINEERING\n4. ELECTRONICS & COMMUNICATION ENGINEERING\n5. INDUSTRIAL ENGINEERING & MANAGEMENT\n6. COMPUTER SCIENCE AND ENGINEERING\n7. ElECTRONICS & TELECOMMUNICATION ENGINEERING\n8. INFORMATION SCIENCE AND ENGINEERING\n9. ELECTRONICS & INSTRUMENTATION ENGINEERING\n10. MEDICAL ELECTRONICS ENGINEERING\n11. BIO TECHNOLOGY\n12. CHEMICAL ENGINEERING\n13. AEROSPACE ENGINEERING\n14. ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING\n15. COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)\n16. COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)\n17. ARTIFICIAL INTELLIGENCE (AI) AND DATA SCIENCE\n18. COMPUTER SCIENCE AND BUSINESS SYSTEMS"]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","Where is college?","Where to visit college","Where is the college building"],
+  "responses": ["B.M.S College of Engineering is Located near Bull Temple Road,Basavangudi Bangalore - 560 019 Karnataka, India."]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements","eligibility criteria","how to enter college","Minimum academic qualifications required"],
+  "responses": ["Eligibility Criteria:A candidate who has Passed in 2nd PUC / 12 Std / Equivalent Examination with English as one of the Language and obtained a Minimum of 45% of Marks in aggregate in Physics and Mathematics as compulsory subjects along\n with Chemistry / Bio Technology / Biology / Computer Science / Electronics as optional subjects in the qualifying examination is eligible to pursue in under graduate programs (BE)."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be Four to Six classes per day. Each class will be of 55 minutes"]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["Our college has different teaching patterns than other colleges of India, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["Each semester consists of three internal tests and one sem end examination with Alternative assesment tools"]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 9:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Music,Dance,Arts,Dram and acting. \nyou name it we have it. \n Also our college has basketball court, badminton court, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like  Library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["B.E Courses through CET\nAdmission fee=RS 84,000\tYear \nManagment Seats fees need to enqiures to the admission board in college"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Hope we meet soon in College","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk","I love  you","Give me money","wihgrhagjrjgkjih"],
+    "responses": ["Sorry, can't understand you", "I dont think I can help in this", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}

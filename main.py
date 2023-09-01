@@ -57,6 +57,7 @@ print("|============= Welcome to College Equiry Chatbot System! =============|")
 print("|============================== Feel Free ============================|")
 print("|================================== To ===============================|")
 print("|=============== Ask your any query about our college ================|")
+print("|Bot: hey there,how can I help you")
 while True:
     message = input("| You: ")
     if message == "bye" or message == "Goodbye":

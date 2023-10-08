@@ -123,6 +123,11 @@
   {"tag": "Fallback",
     "patterns": ["This doesn't make sense","What are you talking about?","I need help!","Invalid command","Not sure what to ask","I don't know","Please assist me","Can you explain?","I'm lost","It's not clear","I'm stuck","This is gibberish","I'm unsure","I'm baffled","whatever","what","come again","please you are dumb","fool","shutup","colleg life","can i get money"],
     "responses": ["I'm sorry, I didn't understand your question. Please try asking in a different way or provide more details.","Apologies, but I couldn't comprehend your query. Could you rephrase it or be more specific?","I'm here to help, but I'm not sure what you're asking. Can you clarify or ask another question?"]
+  },
+
+  {"tag": "Ovhay",
+    "patterns": ["I am ovhay","ovhay","ovhay kumar"],
+    "responses": ["Hello, Ovhay Kumar aka the God of valorant, how is your day today"]
   }
 
 ]}
